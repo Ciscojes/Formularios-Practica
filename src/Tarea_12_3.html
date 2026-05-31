@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Registro</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Práctica</h1>
+      <p>
+        <a href="index.html">👈 Volver atrás</a>
+      </p>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Rellena tu CV</h2>
+
+      <form action="" method="get">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <p>
+            <label for="Provincia">Provincia</label><br />
+            <select name="Provincia" id="Provincia">
+              <option value="">-Selecciona-</option>
+              <option value="C">Cartago</option>
+              <option value="A">Alajuela</option>
+              <option value="S">San Jose</option>
+              <option value="L">Limon</option>
+              <option value="P">Puntarenas</option>
+              <option value="T">Turrialba</option>
+            </select>
+          </p>
+
+          <p>
+            Fecha de Nacimiento <br />
+            <input type="text" name="dia" size="1" /> de
+            <select name="meses" id="meses">
+              <option value="1">Enero</option>
+              <option value="2">Febrero</option>
+              <option value="3">Marzo</option>
+              <option value="4">Abril</option>
+              <option value="5">Mayo</option>
+              <option value="6">Junio</option>
+              <option value="7">Julio</option>
+              <option value="8">Agosto</option>
+              <option value="9">Setiembre</option>
+              <option value="10">Octubre</option>
+              <option value="12">Noviembre</option>
+              <option value="12">Diciembre</option>
+            </select>
+            de
+            <input type="text" name="year" size="4" />
+          </p>
+          <p>
+            <label for="temas"></label>Temas de intereses <br />
+            <select name="temas" id="temas" size="5" multiple>
+              <option value="">Administracion de bases de datos</option>
+              <option value="">Analisis y programacion</option>
+              <option value="">Arquitectura</option>
+              <option value="">Calidad</option>
+              <option value="">ERp, CRM, Business intelligence</option>
+            </select>
+          </p>
+
+          <p><button>Enviar</button></p>
+        </fieldset>
+      </form>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Realizado por Jesús Granados</p>
+    </footer>
+  </body>
+</html>

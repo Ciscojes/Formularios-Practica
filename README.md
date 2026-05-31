@@ -15,7 +15,6 @@ Proyecto desarrollado como práctica de HTML5 para aprender la creación de form
 
 - HTML5
 - JavaScript
-- CSS
 
 ---
 
@@ -45,6 +44,9 @@ FORMULARIOS/
 ├── index.html
 ├── 404.html
 ├── Tarea_12_1.html
+├── Tarea_12_2.html
+├── Tarea_12_3.html
+├── Tarea_12_4.html
 │
 ├── package.json
 ├── robots.txt
